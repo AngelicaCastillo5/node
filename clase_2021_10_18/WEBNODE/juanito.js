@@ -5,7 +5,7 @@ const fs=require('fs')
 
 http.createServer((req,res)=>{
     console.log('Dentro del servicio')
-
+    res.end()
 }
 
 
