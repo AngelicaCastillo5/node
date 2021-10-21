@@ -4,13 +4,10 @@ const url=require('url')
 const fs=require('fs')
 
 http.createServer((req,res)=>{
-    
-
-
-
-
+    console.log('Dentro del servicio')
 
 }
 
 
 )
+.listen(3000,()=>{console.log('servicio http://localhost:3000')})
